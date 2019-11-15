@@ -1,6 +1,6 @@
 ---
 description: >-
-    Sonobuoy is a diagnostic tool for understanding teh state of a KUbernetes cluster through conformance and recommended configuration tests.
+    Sonobuoy is a diagnostic tool for understanding teh state of a Kubernetes cluster through conformance and recommended configuration tests.
 ---
 
 # Sonobuoy: Introduction

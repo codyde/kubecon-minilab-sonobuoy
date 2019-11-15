@@ -7,9 +7,9 @@ description: >-
 
 ## Key Capabilities
 
-**Conformance Testing:** - Sonobuoy generates reports to indicate if clusters are properly configured and conformant to the official Kubernetes specifications
-**Workload Debugging:** - Capable of generating reporting around workloads for debugging purposes
-**Extensible:** - Leverage existing or create new plugins to test any custom confirmation for clusters
+* **Conformance Testing:** - Sonobuoy generates reports to indicate if clusters are properly configured and conformant to the official Kubernetes specification
+* **Workload Debugging:** - Capable of generating reporting around workloads for debugging purposes
+* **Extensible:** - Leverage existing or create new plugins to test any custom confirmation for clusters
 
 ### Environment Overview
 

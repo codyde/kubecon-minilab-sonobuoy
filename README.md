@@ -81,7 +81,19 @@ sonobuoy results $results
 
 ```
 
-For more detailed data, we can export the contents of the tar file and inspect the individual reports.
+You should see an output very similar to the below for our environment
+
+```bash
+$ sonobuoy results $results
+Plugin: e2e
+Status: passed
+Total: 3586
+Passed: 1
+Failed: 0
+Skipped: 3585
+```
+
+For more detailed data, we can export the contents of the tar file that as placed the local directory and inspect the individual reports. As you can see from the above run, since we used the `--quick` flag, the majority of tests were skipped.
 
 ### Step 6: Cleanup
 
@@ -93,3 +105,5 @@ sonobuoy delete --wait
 ```
 
 As before, the --wait flag will ensure that the command completes before sending us back to the command prompt.
+
+This concludes the Sonobuoy Mini-lab!
